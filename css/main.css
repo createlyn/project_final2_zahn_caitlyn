@@ -1,0 +1,110 @@
+body {
+    background-color: #1c1c1c;
+    color: #ffffff;
+}
+
+h1 {
+    font-family: "canada-type-gibson", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 2em;
+}
+
+h2 {
+    font-family: "canada-type-gibson", sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    color: #ffffff;
+    font-size: 1.75em;
+}
+
+h3 {
+    font-family: "canada-type-gibson", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 1.5em;
+}
+
+h4 {
+}
+
+h5 {
+
+}
+
+h6 {
+
+}
+
+p {
+    font-family: "canada-type-gibson", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 1em;
+    padding: 1em;
+}
+
+header {
+    margin: auto;
+    text-align: center;
+}
+
+#logo {
+    background-color: #ffffff;
+}
+
+nav {
+    background-color: #990066;
+    padding: 1em;
+    font-family: "canada-type-gibson", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+}
+
+nav a {
+    padding: 0.5em;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.color-tiles {
+    text-align: center;
+    width: 100%;
+    background-color: #ffffff;
+}
+
+.tile-light-purple {
+    padding-top: 2em;
+    width: 20%;
+    margin: 5px;
+    background-color: #990066;
+    display: inline-block;
+}
+
+.tile-dark-purple {
+    padding-top: 2em;
+    width: 20%;
+    margin: 5px;
+    background-color: #310025;
+    display: inline-block;
+}
+
+.tile-yellow {
+    padding-top: 2em;
+    width: 20%;
+    margin: 5px;
+    background-color: #faf28c;
+    display: inline-block;
+}
+
+.tile-grey {
+    padding-top: 2em;
+    width: 20%;
+    margin: 5px;
+    background-color: #bfbfbf;
+    display: inline-block;
+}
