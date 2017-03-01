@@ -110,7 +110,10 @@ nav a {
     display: block;
     width: 200px;
     height: 2em;
-    background-color: #990066;
+    background-color: #bfbfbf;
+    color: #1c1c1c;
+    font-weight: 600;
+    text-transform: uppercase;
     margin-bottom: 2em;
     vertical-align: middle;
     padding-top: 1em;
