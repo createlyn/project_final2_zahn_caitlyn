@@ -76,24 +76,41 @@ header {
     background-color: #ffffff;
 }
 
+#logo img {
+    width: 95%;
+    max-width: 470px;
+}
+
 nav {
     padding: 1em;
     font-family: "canada-type-gibson", sans-serif;
     font-style: normal;
-    font-weight: 600;
     background-color: #990066;
     text-transform: uppercase;
 }
 
 nav a {
-    padding: 0.5em;
+    padding: 0.8em;
     margin: 0.3em;
     text-decoration: none;
     color: #ffffff;
+    font-weight: 400;
 }
 
 .typography {
     text-align: center;
+    background-image: url(../img/fish.png);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: 90%;
+
+}
+
+main {
+    background-image: url(../img/fish-right.png);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: 1%;
 }
 
 .color-tiles {
@@ -136,28 +153,7 @@ nav a {
     display: inline-block;
 }
 
-.textures {
-    padding: 1em;
-}
-
-.fish {
-    background-color: #310025;
-    padding: 2em;
-    margin: 1em;
-    text-align: center;
-    border: 3px solid #ffffff;
-}
-
-.food {
-    background-color: #310025;
-    padding: 2em;
-    margin: 1em;
-    text-align: center;
-    border: 3px solid #ffffff;
-}
-
 .icons {
-    background-color: blue;
     text-align: center;
 }
 
@@ -166,15 +162,25 @@ nav a {
 }
 
 .purple-icon img {
-    width: 90%;
+    width: 55%;
 }
 
 @media all and (min-width: 800px) {
+    header {
+        background-color: #ffffff;
+    }
+
+    #logo {
+        margin: auto;
+        width: 30%;
+    }
+
     .typography {
         width: 30%;
         display: inline-block;
-        background-color: red;
         margin: 0 1em;
+        background-size: 70%;
+        background-position: 90%;
     }
 
     main {
@@ -182,6 +188,8 @@ nav a {
         display: inline-block;
         vertical-align: top;
         box-sizing: content-box;
+        background-size: 50%;
+        background-position: 60%;
     }
 
     .color-tiles {
@@ -202,23 +210,24 @@ nav a {
     .textures {
         text-align: center;
         padding: 0;
+        margin: 1em 0;
     }
 
-    .fish {
-        display: inline-block;
-        width: 30%;
-        padding: 1em;
-    }
-
+    .fish,
     .food {
         display: inline-block;
-        width: 30%;
+        width: 34%;
         padding: 1em;
     }
+
 
     .purple-icon {
         width: 49%;
         display: inline-block;
+    }
+
+    .purple-icon img {
+        width: 90%;
     }
 
 }
@@ -248,14 +257,24 @@ nav a {
 
     nav a {
         color: #990066;
+        font-size: 1.5em;
     }
 
-    .fish,
-    .food {
-        width: 40%;
+    nav a:hover {
+        font-weight: 600;
     }
 
-    .purple-icon {
+    .typography {
+        background-size: 40%;
+        background-position: 90%;
+    }
+
+    main {
+        background-size: 30%;
+        background-position: 40%;
+    }
+
+    /*.purple-icon {
         width: 24%;
-    }
+    }*/
 }
