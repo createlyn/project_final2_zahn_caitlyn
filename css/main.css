@@ -137,24 +137,36 @@ nav a {
 }
 
 .textures {
-    background-color: orange;
     padding: 1em;
 }
 
 .fish {
-    background-color: #1c1c1c;
+    background-color: #310025;
     padding: 2em;
     margin: 1em;
     text-align: center;
-    border: 1px solid #ffffff;
+    border: 3px solid #ffffff;
 }
 
 .food {
-    background-color: #1c1c1c;
+    background-color: #310025;
     padding: 2em;
     margin: 1em;
     text-align: center;
-    border: 1px solid #ffffff;
+    border: 3px solid #ffffff;
+}
+
+.icons {
+    background-color: blue;
+    text-align: center;
+}
+
+.purple-icon {
+    width: 100%;
+}
+
+.purple-icon img {
+    width: 90%;
 }
 
 @media all and (min-width: 800px) {
@@ -169,7 +181,6 @@ nav a {
         width: 60%;
         display: inline-block;
         vertical-align: top;
-        background-color: yellow;
         box-sizing: content-box;
     }
 
@@ -190,6 +201,7 @@ nav a {
 
     .textures {
         text-align: center;
+        padding: 0;
     }
 
     .fish {
@@ -202,6 +214,11 @@ nav a {
         display: inline-block;
         width: 30%;
         padding: 1em;
+    }
+
+    .purple-icon {
+        width: 49%;
+        display: inline-block;
     }
 
 }
@@ -236,5 +253,9 @@ nav a {
     .fish,
     .food {
         width: 40%;
+    }
+
+    .purple-icon {
+        width: 24%;
     }
 }
