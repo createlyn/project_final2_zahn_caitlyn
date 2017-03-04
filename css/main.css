@@ -66,6 +66,11 @@ p {
     line-height: 1.2em;
 }
 
+a {
+    text-decoration: none;
+    color: #faf28c;
+}
+
 header {
     margin: auto;
     text-align: center;
@@ -74,6 +79,10 @@ header {
 
 #logo {
     background-color: #ffffff;
+}
+
+#logo_tablet {
+    display: none;
 }
 
 #logo img {
@@ -106,22 +115,20 @@ nav a {
     background-attachment: fixed;
 }
 
-.button {
+button {
     margin: auto;
     display: block;
     width: 200px;
     height: 2em;
-    background-color: #bfbfbf;
-    color: #1c1c1c;
+    background-color: #310025;
+    color: #ffffff;
+    border: 1px solid #990066;
     font-weight: 600;
     text-transform: uppercase;
     margin-bottom: 2em;
-    vertical-align: middle;
-    padding-top: 1em;
-}
-
-.button:hover {
-    box-shadow: 0 0 10px rgba(250, 242, 140, 0.5);
+    vertical-align: top;
+    padding: 1em 0 1.75em 0;
+    outline: none;
 }
 
 main {
@@ -197,6 +204,10 @@ main {
         display: none;
     }
 
+    #logo_tablet {
+        display: block;
+    }
+
     .typography {
         width: 30%;
         display: inline-block;
@@ -255,6 +266,10 @@ main {
 }
 
 @media all and (min-width: 1100px) {
+    a:hover {
+        font-weight: 400;
+    }
+
     header {
         background-color: #ffffff;
         text-align: left;
@@ -292,5 +307,9 @@ main {
 
     main {
         background-size: 30%;
+    }
+
+    button:hover {
+        box-shadow: 0 0 15px rgba(250, 242, 140, 0.5);
     }
 }
